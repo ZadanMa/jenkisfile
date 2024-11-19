@@ -21,7 +21,7 @@ pipeline {
 				echo "${INSTAGRAM_MORETO}"
 				echo "$INSTAGRAM_MORETO"
 				echo "======================"
-				sh "echo "${env.INSTAGRAM_MORETO}"
+				sh "echo ${env.INSTAGRAM_MORETO}"
 				sh "echo ${INSTAGRAM_MORETO}"
 				sh "echo $INSTAGRAM_MORETO"
 				echo "======================"
