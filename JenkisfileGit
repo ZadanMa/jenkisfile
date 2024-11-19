@@ -33,7 +33,7 @@ pipeline {
 				echo "${FACEBOOK}"
 				echo "$FACEBOOK"
 				echo "======================"
-				sh "echo "${env.FACEBOOK}"
+				sh "echo ${env.FACEBOOK}"
 				sh "echo ${FACEBOOK}"
 				sh "echo $FACEBOOK"
 				echo "======================"
