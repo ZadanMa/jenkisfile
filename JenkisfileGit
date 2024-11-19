@@ -27,7 +27,7 @@ pipeline {
 				echo "======================"
 			}
 		}
-		stage ("Imprimir VAriables de entorno") {
+		stage ("Imprimir VAriables de entorno desde sistema interno") {
 			steps {
 				echo "${env.FACEBOOK}"
 				echo "${FACEBOOK}"
